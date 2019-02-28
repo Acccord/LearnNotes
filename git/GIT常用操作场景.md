@@ -24,7 +24,6 @@
 ### 4，删除远程分支
 > git push origin --delete 远程分支名
 <br>
-<br>
 
 ### 5，删除本地分支
 > git branch -d 本地分支名
@@ -36,30 +35,24 @@
 ### 6，首次提交代码，Push to origin/master was rejected （fatal: refusing to merge unrelated histories）
 > git pull origin master --allow-unrelated-histories
 <br>
-<br>
 
 ### 7，手动添加忽略文件
 > git rm -r --cached .
 > git add .
 > git commit -m 'update .gitignore'
 <br>
-<br>
 
 ### 8，添加忽略单个文件
 > git rm -r --cached <FILENAME>
-<br>
 <br>
 
 ### 9，切换远程仓库地址：
 - 方式一：修改远程仓库地址
 > git remote set-url origin URL //更换远程仓库地址，URL为新地址。
-<br>
 - 方式二：先删除远程仓库地址，然后再添加
 > git remote rm origin //删除现有远程仓库
 > git remote add origin url //添加新远程仓库
 <br>
-<br>
 
 ### 10、查看远程仓库的地址
 > git remote -v
-<br>
