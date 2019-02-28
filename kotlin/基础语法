@@ -1,4 +1,4 @@
-1，可变长参数函数
+##1，可变长参数函数
 函数的变长参数可以用 vararg 关键字进行标识：
 fun vars(vararg v:Int){
     for(vt in v){
@@ -9,4 +9,21 @@ fun vars(vararg v:Int){
 // 测试
 fun main(args: Array<String>) {
     vars(1,2,3,4,5)  // 输出12345
+}
+
+##2，类型检测及自动类型转换
+我们可以使用 is 运算符检测一个表达式是否某类型的一个实例(类似于Java中的instanceof关键字)。
+fun getStringLength(obj: Any): Int? {
+  if (obj is String) {
+    // 做过类型判断以后，obj会被系统自动转换为String类型
+    return obj.length 
+  }
+
+  //在这里还有一种方法，与Java中instanceof不同，使用!is
+  // if (obj !is String){
+  //   // XXX
+  // }
+
+  // 这里的obj仍然是Any类型的引用
+  return null
 }
