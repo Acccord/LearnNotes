@@ -37,10 +37,11 @@
 <br>
 
 ### 7，手动添加忽略文件
-> git rm -r --cached .
-> git add .
-> git commit -m 'update .gitignore'
-<br>
+``` git
+git rm -r --cached .
+git add .
+git commit -m 'update .gitignore'
+```
 
 ### 8，添加忽略单个文件
 > git rm -r --cached <FILENAME>
