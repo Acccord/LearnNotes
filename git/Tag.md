@@ -1,6 +1,6 @@
 
 ## Tag
-
+## 常用命令
 - git tag
 ``` git
 // 查看tag，列出所有tag，列出的tag是按字母排序的，和创建时间没关系。
@@ -70,4 +70,15 @@ Date:   Sun Feb 8 19:02:46 2009 -0800
 切换到tag历史记录会处在分离头指针状态，这个时候修改是很危险的，在切换回主线时如果没有合并，之前的修改提交基本都会丢失
 如果需要修改可以尝试git checkout -b branch tag创建一个基于指定tag的分支
 例如：git checkout -b tset v0.1.0  这个时候就会在分支上进行开发，之后可以切换到主线合并
+```
+## 场景操作
+- 删除 GitHub 上某个 tag/release
+``` git
+git tag -d [tag];
+git push origin :[tag]
+``` 
+假若需要删除一个 v1.1.1 的 release 版本
+``` git
+git tag -d v1.1.1;
+git push origin :v1.1.1
 ```
