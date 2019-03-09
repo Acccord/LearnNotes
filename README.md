@@ -4,7 +4,7 @@
 - RecyclerView
 
 ## git
-- GIT常用操作场景 
+- [GIT常用操作场景](https://github.com/Acccord/LearnNotes/blob/master/git/GIT常用操作场景.md)
 - Git配置用户名与邮箱
 - Tag
   
