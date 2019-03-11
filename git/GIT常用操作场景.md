@@ -32,9 +32,24 @@
 <br>
 <br>
 
-### 6，首次提交代码，Push to origin/master was rejected （fatal: refusing to merge unrelated histories）
-> git pull origin master --allow-unrelated-histories
-<br>
+### 6，切换分支,保存临时修改
+git切换到别的分支,要暂时保存当前分支的修改(不想进行add 和commit)的方法 git stash
+``` git
+git stash
+//or
+git stash save “修改的信息"
+``` 
+> 直接git stash的话git stash的栈会直接给你一个hash值作为版本的说明，如果用git stash save “修改的信息”，git stash的栈会把你填写的“修改的信息”作为版本的说明。
+
+回到本分支后恢复代码
+``` git
+git stash pop
+//or
+git stash list
+git stash apply stash@{0}
+```
+> git stash pop的作用是将git stash栈中最后一个版本取出来，git stash apply stash@{0}的作用是可以指定栈中的一个版本，通过git stash list可以看到所有的版本信息：
+
 
 ### 7，手动添加忽略文件
 ``` git
