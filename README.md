@@ -5,6 +5,7 @@
 
 ## git
 - [GIT常用操作场景](https://github.com/Acccord/LearnNotes/blob/master/git/GIT常用操作场景.md)
+- [Git报错解决方案](https://github.com/Acccord/LearnNotes/blob/master/git/Git报错解决方案.md)
 - [Git配置用户名与邮箱](https://github.com/Acccord/LearnNotes/blob/master/git/Git配置用户名与邮箱.md)
 - [Tag](https://github.com/Acccord/LearnNotes/blob/master/git/Tag.md)
   
