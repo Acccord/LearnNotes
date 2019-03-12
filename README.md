@@ -4,7 +4,7 @@
 - [RecyclerView](https://github.com/Acccord/LearnNotes/blob/master/android/RecyclerView.md)
 
 ## git
-- [Git分支操作](https://github.com/Acccord/LearnNotes/blob/master/git/Git分支操作.md)
+- [Git分支](https://github.com/Acccord/LearnNotes/blob/master/git/Git分支.md)
 - [Git忽略文件](https://github.com/Acccord/LearnNotes/blob/master/git/Git忽略文件.md)
 - [Git报错解决方案](https://github.com/Acccord/LearnNotes/blob/master/git/Git报错解决方案.md)
 - [Git配置用户名与邮箱](https://github.com/Acccord/LearnNotes/blob/master/git/Git配置用户名与邮箱.md)
