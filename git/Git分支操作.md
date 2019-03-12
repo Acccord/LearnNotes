@@ -56,18 +56,7 @@ git stash apply stash@{0}
 //git stash apply stash@{0}的作用是可以指定栈中的一个版本，通过git stash list可以看到所有的版本信息：
 ```
 
-### 7，手动添加忽略文件
-``` git
-git rm -r --cached .
-git add .
-git commit -m 'update .gitignore'
-```
-
-### 8，添加忽略单个文件
-> git rm -r --cached <FILENAME>
-<br>
-
-### 9，切换远程仓库地址：
+### 7，切换远程仓库地址：
 - 方式一：修改远程仓库地址
 > git remote set-url origin URL //更换远程仓库地址，URL为新地址。
 - 方式二：先删除远程仓库地址，然后再添加
@@ -76,5 +65,5 @@ git commit -m 'update .gitignore'
 > git remote add origin [url] //添加新远程仓库
 <br>
 
-### 10、查看远程仓库的地址
+### 8、查看远程仓库的地址
 > git remote -v
