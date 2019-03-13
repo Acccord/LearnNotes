@@ -21,6 +21,7 @@ SwitchDoorDialog().show(supportFragmentManager,"Vi")
 dialog.setCanceledOnTouchOutside(true)
 ```
 - 设置style
+
 Style代码
 ``` xml
     <style name="DialogStyle" parent="@android:style/Theme.Holo.Light.Dialog">
