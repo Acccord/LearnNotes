@@ -2,6 +2,7 @@
 记录遇到的问题和学习的知识点
 ## android
 - [RecyclerView](https://github.com/Acccord/LearnNotes/blob/master/android/RecyclerView.md)
+- [DialogFragment](https://github.com/Acccord/LearnNotes/blob/master/android/DialogFragment.md)
 
 ## git
 - [Git分支](https://github.com/Acccord/LearnNotes/blob/master/git/Git分支.md)
