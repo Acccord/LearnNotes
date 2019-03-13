@@ -21,6 +21,7 @@ SwitchDoorDialog().show(supportFragmentManager,"Vi")
 dialog.setCanceledOnTouchOutside(true)
 ```
 - 设置style
+Style代码
 ``` xml
     <style name="DialogStyle" parent="@android:style/Theme.Holo.Light.Dialog">
         <!-- 窗口背景色 -->
@@ -40,4 +41,11 @@ dialog.setCanceledOnTouchOutside(true)
         <!--进出动画-->
         <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
     </style>
+```
+使用
+``` kotlin
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setStyle(DialogFragment.STYLE_NO_FRAME, R.style.DialogStyle)
+    }
 ```
