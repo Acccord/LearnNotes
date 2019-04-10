@@ -55,15 +55,3 @@ git stash list
 git stash apply stash@{0}
 //git stash apply stash@{0}的作用是可以指定栈中的一个版本，通过git stash list可以看到所有的版本信息：
 ```
-
-### 7，切换远程仓库地址：
-- 方式一：修改远程仓库地址
-> git remote set-url origin URL //更换远程仓库地址，URL为新地址。
-- 方式二：先删除远程仓库地址，然后再添加
-> git remote rm origin //删除现有远程仓库
-
-> git remote add origin [url] //添加新远程仓库
-<br>
-
-### 8、查看远程仓库的地址
-> git remote -v
