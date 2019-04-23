@@ -1,6 +1,7 @@
-Gradle
+# Gradle
 
-## bash: gradlew: command not found
+## 异常情况
+### bash: gradlew: command not found
 mac下执行gradlew命令时，提示-bash ：gradlew command not found，主要原因是Android Project根目录下地gradlew文件没有执行权限。打开终端，执行以下命令：
 > sudo chmod +x gradlew
 
