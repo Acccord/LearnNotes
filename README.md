@@ -2,8 +2,9 @@
 记录遇到的问题和学习的知识点
 ## android
 - [AccessibilityService](https://github.com/Acccord/LearnNotes/blob/master/android/AccessibilityService.md)
-- [RecyclerView](https://github.com/Acccord/LearnNotes/blob/master/android/RecyclerView.md)
 - [DialogFragment](https://github.com/Acccord/LearnNotes/blob/master/android/DialogFragment.md)
+- [Gradle](https://github.com/Acccord/LearnNotes/blob/master/android/Gradle.md)
+- [RecyclerView](https://github.com/Acccord/LearnNotes/blob/master/android/RecyclerView.md)
 - [软件安全](https://github.com/Acccord/LearnNotes/blob/master/android/软件安全.md)
 
 ## flutter
