@@ -1,5 +1,5 @@
 # 目录
-记录遇到的问题和学习的知识点
+记录问题和知识点
 ## android
 - [AccessibilityService](https://github.com/Acccord/LearnNotes/blob/master/android/AccessibilityService.md)
 - [DialogFragment](https://github.com/Acccord/LearnNotes/blob/master/android/DialogFragment.md)
