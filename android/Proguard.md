@@ -85,23 +85,13 @@ buildTypes {
 ```
 
 - 含有Keep关键字的含义（移除是指在压缩时(Shrinking)是否会被删除，需要开启压缩）
-```
-保留
-防止被移除或者被重命名
-防止被重命名
 
-类和类成员
--keep
--keepnames
+保留|防止被移除或者被重命名|防止被重命名
+--|:--:|--:
+类和类成员|-keep|-keepnames
+仅类成员|-keepclassmembers|-keepclassmembernames
+如果拥有某成员，保留类和类成员|-keepclasseswithmembers|-keepclasseswithmembernames
 
-仅类成员
--keepclassmembers
--keepclassmembernames
-
-如果拥有某成员，保留类和类成员
--keepclasseswithmembers
--keepclasseswithmembernames
-```
 
 ### 2. 通用的一些混淆规则：
 注：四大组件、Fragment、自定义控件不需要添加混淆规则，因为这些默认是不会被混淆的，所以网上很多四大组件的混淆规则是没必要添加的。
