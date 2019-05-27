@@ -103,3 +103,96 @@ buildTypes {
 -keepclasseswithmembernames
 ```
 
+### 2. 通用的一些混淆规则：
+注：四大组件、Fragment、自定义控件不需要添加混淆规则，因为这些默认是不会被混淆的，所以网上很多四大组件的混淆规则是没必要添加的。
+
+- 注解
+```
+-keepattributes *Annotation*
+```
+
+- R文件下面的资源
+```
+-keep class **.R$* {*;}
+```
+
+- 本地的native方法（JNI）
+```
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+```
+
+- 反射(该pageName是被反射类的包名)
+```
+-keep class pageName{*;}
+```
+
+- JavaBean中的泛型
+```
+-keepattributes Signature
+```
+
+- JavaBean（如果使用了Gson进行解析Json字符串，就需要添加JavaBean的混淆规则，因为Gson使用了反射的原理）
+```
+-keep class pageName**
+-keep class pageName**{*;}
+```
+
+- 枚举
+```
+# 保留枚举类不被混淆
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+```
+
+- Parcelable序列化和Creator静态成员变量
+```
+-keep class * implements android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}
+```
+
+- Serializable序列化
+```
+-keepclassmembers class * implements java.io.Serializable {
+    static final long serialVersionUID;
+    private static final java.io.ObjectStreamField[] serialPersistentFields;
+    !static !transient <fields>;
+    !private <fields>;
+    !private <methods>;
+    private void writeObject(java.io.ObjectOutputStream);
+    private void readObject(java.io.ObjectInputStream);
+    java.lang.Object writeReplace();
+    java.lang.Object readResolve();
+}
+```
+
+- WebView
+```
+-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+    public *;
+}
+-keepclassmembers class * extends android.webkit.webViewClient {
+    public void *(android.webkit.WebView, java.lang.String, android.graphics.Bitmap);
+    public boolean *(android.webkit.WebView, java.lang.String);
+}
+-keepclassmembers class * extends android.webkit.webViewClient {
+    public void *(android.webkit.webView, jav.lang.String);
+}
+```
+
+- 与JS交互
+```
+#Android4.2以上需要添加以下的两个混淆配置
+-keepattributes *Annotation*
+-keepattributes *JavascriptInterface*
+-keepclassmembers class pageName$内部类名 {
+    public *;
+}
+```
+
+第三方的Jar包、依赖、SDK等
+> 这个就需要查看项目中添加了那些第三方的Jar包、依赖、SDK了，然后在其官网上或者Github找相应的混淆规则，一般都会有的，如果没有可以自己写混淆规则。根据上面介绍的一些常用的命令含义，一般都能满足自己写混淆规则了
