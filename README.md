@@ -20,7 +20,7 @@
 - [Tag](https://github.com/Acccord/LearnNotes/blob/master/git/Tag.md)
   
 ## koltin
-- [单例](https://github.com/Acccord/LearnNotes/blob/master/kotlin/加入kotlin步骤.md)
+- [加入kotlin步骤](https://github.com/Acccord/LearnNotes/blob/master/kotlin/加入kotlin步骤.md)
 - [单例](https://github.com/Acccord/LearnNotes/blob/master/kotlin/单例.md)
 - [基本数据类型](https://github.com/Acccord/LearnNotes/blob/master/kotlin/基本数据类型.md)
 - [基础语法](https://github.com/Acccord/LearnNotes/blob/master/kotlin/基础语法.md)
