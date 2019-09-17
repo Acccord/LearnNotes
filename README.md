@@ -4,6 +4,7 @@
 - [AccessibilityService](https://github.com/Acccord/LearnNotes/blob/master/android/AccessibilityService.md)
 - [DialogFragment](https://github.com/Acccord/LearnNotes/blob/master/android/DialogFragment.md)
 - [Gradle](https://github.com/Acccord/LearnNotes/blob/master/android/Gradle.md)
+- [LaunchMode](https://github.com/Acccord/LearnNotes/blob/master/android/LaunchMode.md)
 - [RecyclerView](https://github.com/Acccord/LearnNotes/blob/master/android/RecyclerView.md)
 - [Proguard](https://github.com/Acccord/LearnNotes/blob/master/android/Proguard.md)
 - [WebView](https://github.com/Acccord/LearnNotes/blob/master/android/WebView.md)
