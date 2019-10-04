@@ -12,11 +12,8 @@
 ## flutter
 
 ## git
-- [分支](https://github.com/Acccord/LearnNotes/blob/master/git/分支.md)
-- [忽略文件](https://github.com/Acccord/LearnNotes/blob/master/git/忽略文件.md)
+- [常用操作](https://github.com/Acccord/LearnNotes/blob/master/git/常用操作.md)
 - [报错解决方案](https://github.com/Acccord/LearnNotes/blob/master/git/报错解决方案.md)
-- [远程仓库地址](https://github.com/Acccord/LearnNotes/blob/master/git/远程仓库地址.md)
-- [配置用户名与邮箱](https://github.com/Acccord/LearnNotes/blob/master/git/配置用户名与邮箱.md)
 - [Markdown格式](https://github.com/Acccord/LearnNotes/blob/master/git/Markdown格式.md)
 - [Tag](https://github.com/Acccord/LearnNotes/blob/master/git/Tag.md)
   
