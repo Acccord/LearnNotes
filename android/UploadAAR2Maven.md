@@ -59,5 +59,33 @@
   }
 ```
 ### 引用
+在项目的build.gradle添加
+```
+allprojects {
+    repositories {
+        maven { url "http://xxxxx:xxxx/xxxxx/" }//与上面配置的maven仓库地址相同
+    }
+}
+```
+在模块的build.gradle添加
+```
+dependencies {
+    implementation 'com.cn.vi:xxx:1.0.0'//这里根据上面配置来
+}
+```
+如果私有maven仓库需要用户名密码时，使用以下配置
+```
+allprojects {
+    repositories {
+        maven { 
+          url "http://xxxxx:xxxx/xxxxx/" //与上面配置的maven仓库地址相同
+          credentials {
+                username 'xxxxxx'
+                password 'xxxxxx'
+            }
+        }
+    }
+}
+```
 
   
