@@ -1,5 +1,6 @@
 # 目录
 记录问题和知识点
+
 ## android
 - [AccessibilityService](https://github.com/Acccord/LearnNotes/blob/master/android/AccessibilityService.md)
 - [DialogFragment](https://github.com/Acccord/LearnNotes/blob/master/android/DialogFragment.md)
@@ -7,6 +8,7 @@
 - [LaunchMode](https://github.com/Acccord/LearnNotes/blob/master/android/LaunchMode.md)
 - [RecyclerView](https://github.com/Acccord/LearnNotes/blob/master/android/RecyclerView.md)
 - [Proguard](https://github.com/Acccord/LearnNotes/blob/master/android/Proguard.md)
+- [UploadAAR2Maven](https://github.com/Acccord/LearnNotes/blob/master/android/UploadAAR2Maven.md)
 - [WebView](https://github.com/Acccord/LearnNotes/blob/master/android/WebView.md)
 
 ## flutter
@@ -14,7 +16,6 @@
 ## git
 - [常用操作](https://github.com/Acccord/LearnNotes/blob/master/git/常用操作.md)
 - [报错解决方案](https://github.com/Acccord/LearnNotes/blob/master/git/报错解决方案.md)
-- [Markdown格式](https://github.com/Acccord/LearnNotes/blob/master/git/Markdown格式.md)
 - [Tag](https://github.com/Acccord/LearnNotes/blob/master/git/Tag.md)
   
 ## koltin
@@ -33,3 +34,6 @@
 - [类和对象](https://github.com/Acccord/LearnNotes/blob/master/kotlin/类和对象.md)
 - [继承](https://github.com/Acccord/LearnNotes/blob/master/kotlin/继承.md)
 - [范型](https://github.com/Acccord/LearnNotes/blob/master/kotlin/范型.md)
+
+## other
+- [Markdown格式](https://github.com/Acccord/LearnNotes/blob/master/git/Markdown格式.md)
