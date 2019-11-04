@@ -3,6 +3,7 @@
 
 ## android
 - [AccessibilityService](https://github.com/Acccord/LearnNotes/blob/master/android/AccessibilityService.md)
+- [AndroidStudioError](https://github.com/Acccord/LearnNotes/blob/master/android/AndroidStudioError.md)
 - [DialogFragment](https://github.com/Acccord/LearnNotes/blob/master/android/DialogFragment.md)
 - [Gradle](https://github.com/Acccord/LearnNotes/blob/master/android/Gradle.md)
 - [LaunchMode](https://github.com/Acccord/LearnNotes/blob/master/android/LaunchMode.md)
