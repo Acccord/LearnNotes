@@ -36,5 +36,8 @@
 - [继承](https://github.com/Acccord/LearnNotes/blob/master/kotlin/继承.md)
 - [范型](https://github.com/Acccord/LearnNotes/blob/master/kotlin/范型.md)
 
+## mac
+- [显示隐藏文件](https://github.com/Acccord/LearnNotes/blob/master/Mac/显示隐藏文件.md)
+
 ## other
 - [Markdown格式](https://github.com/Acccord/LearnNotes/blob/master/git/Markdown格式.md)
