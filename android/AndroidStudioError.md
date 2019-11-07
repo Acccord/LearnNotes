@@ -39,3 +39,8 @@ android {
     }
 }
 ```
+
+### 4. ERROR: SSL peer shut down incorrectly
+> 原因：包下载不了
+  解决方案： 
+  - 1，切换下网络
