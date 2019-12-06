@@ -1,15 +1,15 @@
 # 文字转语音
 
-### 安卓文字转语音的几种方式
+## 安卓文字转语音的几种方式
 -[TTS的几种方案](https://blog.csdn.net/cu1234567890/article/details/51767158)
 
-### 讯飞语音的使用
-- 参考文档
+## 讯飞语音的使用
+### 参考文档
   - [在线语音Android SDK文档](https://www.xfyun.cn/doc/tts/online_tts/Android-SDK.html#_1、简介)
   - [Android SDK文档下载地址](https://www.xfyun.cn/doc/)
-- 集成步骤
-  - [下载SDK](https://www.xfyun.cn/sdk/dispatcher)，导入libs文件到项目
-  - 添加用户权限
+### 集成步骤
+- [下载SDK](https://www.xfyun.cn/sdk/dispatcher)，导入libs文件到项目
+- 添加用户权限
 ```
   <!--连接网络权限，用于执行云端语音能力 -->
   <uses-permission android:name="android.permission.INTERNET"/>
@@ -37,19 +37,33 @@
   <!--如需使用人脸识别，还要添加：摄相头权限，拍照需要用到 -->
   <uses-permission android:name="android.permission.CAMERA" />
 ```
-    - 混淆
+- 混淆
 ```
   -keep class com.iflytek.**{*;}
   -keepattributes Signature
 ```
-    - 初始化
+- 初始化
 ```
   // 将“12345678”替换成您申请的APPID，申请地址：http://www.xfyun.cn
   // 请勿在“=”与appid之间添加任何空字符或者转义符
   SpeechUtility.createUtility(context, SpeechConstant.APPID +"=12345678");
 ```
-    - 使用
+- 使用
+```
+  TTSUtility.getInstance(getApplicationContext()).speaking("编程使我快乐");
+```
+工具类
 ``` java
+/**
+  * 可以看到封装的工具类中可以进行参数的设置，主要包括以下内容：
+  * 语言（LANGUAGE，中文、英文等）
+  * 方言（ACCENT，中文的普通话，粤语等）
+  * 发音人特征（性别，年龄，语气）
+  * 语速（SPEED）
+  * 音量（VOLUME）
+  * 语调（PITCH）
+  * 音频采样率（SAMPLE_RATE）
+  */
 public class TTSUtility {
         // 发音人
         public final static String[] COLOUD_VOICERS_VALUE = {"xiaoyan", "xiaoyu", "catherine", "henry", "vimary", "vixy", "xiaoqi", "vixf", "xiaomei","xiaolin", "xiaorong", "xiaoqian", "xiaokun", "xiaoqiang", "vixying", "xiaoxin", "nannan", "vils",};
