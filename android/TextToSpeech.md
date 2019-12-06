@@ -37,18 +37,18 @@
   <!--如需使用人脸识别，还要添加：摄相头权限，拍照需要用到 -->
   <uses-permission android:name="android.permission.CAMERA" />
 ```
-  - 混淆
+    - 混淆
 ```
   -keep class com.iflytek.**{*;}
   -keepattributes Signature
 ```
-  - 初始化
+    - 初始化
 ```
   // 将“12345678”替换成您申请的APPID，申请地址：http://www.xfyun.cn
   // 请勿在“=”与appid之间添加任何空字符或者转义符
   SpeechUtility.createUtility(context, SpeechConstant.APPID +"=12345678");
 ```
-  - 使用
+    - 使用
 ``` java
 public class TTSUtility {
         // 发音人
