@@ -4,9 +4,10 @@
 -[TTS的几种方案](https://blog.csdn.net/cu1234567890/article/details/51767158)
 
 ### 讯飞语音的使用
--[在线语音Android SDK文档](https://www.xfyun.cn/doc/tts/online_tts/Android-SDK.html#_1、简介)
--[Android SDK文档下载地址](https://www.xfyun.cn/doc/)
--集成步骤
+- 参考文档
+  - [在线语音Android SDK文档](https://www.xfyun.cn/doc/tts/online_tts/Android-SDK.html#_1、简介)
+  - [Android SDK文档下载地址](https://www.xfyun.cn/doc/)
+- 集成步骤
   - [下载SDK](https://www.xfyun.cn/sdk/dispatcher)，导入libs文件到项目
   - 添加用户权限
 ```
