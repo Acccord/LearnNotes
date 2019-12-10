@@ -17,15 +17,17 @@
   - component.wxml 组件的布局
   - component.wxss 组件的样式
 
+### Page生命周期
 ```
-page生命周期
-create
-onload 
-onshow
-onready
+//正常打开
+onLoad() 
+onShow()
+onReady()
 
-onhide 
-onshow
+//打开其他页面后返回
+onHide() 
+onShow()
 
-onUnload
+//页面关闭
+onUnload()
 ```
