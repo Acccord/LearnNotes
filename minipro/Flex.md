@@ -19,7 +19,7 @@ Flex是Flexible Box的缩写，意为”弹性布局”，用来为盒状模型�
 项目默认沿主轴排列。单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size。<br>
 
 ## 容器的属性
-- flex-direction 决定主轴的方向【水平/竖直】
+- flex-direction 【决定主轴的方向 水平/竖直】
   - row（默认值）：主轴为水平方向，起点在左端。
   - row-reverse：主轴为水平方向，起点在右端。
   - column：主轴为垂直方向，起点在上沿。
@@ -30,7 +30,7 @@ Flex是Flexible Box的缩写，意为”弹性布局”，用来为盒状模型�
   }
 ```
 
-- flex-wrap 如何换行
+- flex-wrap 【如何换行】
   - nowrap（默认）：不换行。
   - wrap：换行，第一行在上方。
   - wrap-reverse：换行，第一行在下方。
@@ -40,7 +40,7 @@ Flex是Flexible Box的缩写，意为”弹性布局”，用来为盒状模型�
   }
 ```
 
-- flex-flow flex-direction属性和flex-wrap属性的简写形式，默认值为row nowrap
+- flex-flow 【flex-direction属性和flex-wrap属性的简写形式】
 ``` css
   .box {
     /*flex-flow: <flex-direction> || <flex-wrap>;*/
@@ -48,6 +48,17 @@ Flex是Flexible Box的缩写，意为”弹性布局”，用来为盒状模型�
   }
 ```
 
-- justify-content
+- justify-content 【在主轴上的对齐方式】
+  - flex-start（默认值）：左对齐
+  - flex-end：右对齐
+  - center： 居中
+  - space-between：两端对齐，项目之间的间隔都相等。
+  - space-around：每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。
+```
+  .box {
+    justify-content: flex-start | flex-end | center | space-between | space-around;
+  }
+```
+  
 - align-items
 - align-content
