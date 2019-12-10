@@ -138,3 +138,7 @@ Flex是Flexible Box的缩写，意为”弹性布局”，用来为盒状模型�
     align-self: auto | flex-start | flex-end | center | baseline | stretch;
   }
 ```
+
+## 参考地址
+- [网页资料](https://www.cnblogs.com/flywong/p/9503069.html)
+- [视频资料](https://www.bilibili.com/video/av59031488?p=1)
