@@ -18,5 +18,14 @@
   - component.wxss 组件的样式
 
 ```
+page生命周期
+create
+onload 
+onshow
+onready
 
+onhide 
+onshow
+
+onUnload
 ```
