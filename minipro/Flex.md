@@ -1,4 +1,4 @@
-## 一、Flex布局是什么？
+## Flex布局是什么？
 Flex是Flexible Box的缩写，意为”弹性布局”，用来为盒状模型提供最大的灵活性。
 任何一个容器都可以指定为Flex布局。
 ``` css
@@ -29,8 +29,25 @@ Flex是Flexible Box的缩写，意为”弹性布局”，用来为盒状模型�
     flex-direction: row | row-reverse | column | column-reverse;
   }
 ```
-- flex-wrap
-- flex-flow
+
+- flex-wrap 如何换行
+  - nowrap（默认）：不换行。
+  - wrap：换行，第一行在上方。
+  - wrap-reverse：换行，第一行在下方。
+``` css
+  .box{
+    flex-wrap: nowrap | wrap | wrap-reverse;
+  }
+```
+
+- flex-flow flex-direction属性和flex-wrap属性的简写形式，默认值为row nowrap
+``` css
+  .box {
+    /*flex-flow: <flex-direction> || <flex-wrap>;*/
+    flex-flow: row nowrap;
+  }
+```
+
 - justify-content
 - align-items
 - align-content
