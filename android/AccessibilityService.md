@@ -1,7 +1,24 @@
 ## AccessibilityService
 
 ### Service
-- 配置
+- 继承AccessbilityService
+``` kotlin
+  class ViAccessibilityService : AccessibilityService() {
+      private val TAG = "ViAccessibilityService"
+
+      //服务中断时的回调
+      override fun onInterrupt() {
+          Log.d(TAG, "onInterrupt")
+      }
+
+      //接收到系统发送AccessibilityEvent时的回调，如触发了通知栏变化、界面变化等
+      override fun onAccessibilityEvent(event: AccessibilityEvent) {
+          Log.d(TAG, "onAccessibilityEvent:event:$event")
+      }
+  }
+```
+
+- 注册服务
 AndroidManifest.xml
 ``` xml
   <!-- 服务监听 -->
@@ -19,9 +36,9 @@ AndroidManifest.xml
   </service>
 ```
 
-- 监听数据详细
+- 配置监听数据详细
 accessibility_config.xml
-```
+``` xml
 <?xml version="1.0" encoding="utf-8"?>
 <accessibility-service
         xmlns:android="http://schemas.android.com/apk/res/android"
