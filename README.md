@@ -3,12 +3,16 @@
 
 ## android
 - [AccessibilityService](https://github.com/Acccord/LearnNotes/blob/master/android/AccessibilityService.md)
+- [AndroidDDMS](https://github.com/Acccord/LearnNotes/blob/master/android/AndroidDDMS.md)
 - [AndroidStudioError](https://github.com/Acccord/LearnNotes/blob/master/android/AndroidStudioError.md)
 - [DialogFragment](https://github.com/Acccord/LearnNotes/blob/master/android/DialogFragment.md)
 - [Gradle](https://github.com/Acccord/LearnNotes/blob/master/android/Gradle.md)
 - [LaunchMode](https://github.com/Acccord/LearnNotes/blob/master/android/LaunchMode.md)
+- [Proguard](https://github.com/Acccord/LearnNotes/blob/master/android/Proguard.md)
 - [RecyclerView](https://github.com/Acccord/LearnNotes/blob/master/android/RecyclerView.md)
 - [Proguard](https://github.com/Acccord/LearnNotes/blob/master/android/Proguard.md)
+- [RecyclerView](https://github.com/Acccord/LearnNotes/blob/master/android/RecyclerView.md)
+- [TextToSpeech](https://github.com/Acccord/LearnNotes/blob/master/android/TextToSpeech.md)
 - [UploadAAR2Maven](https://github.com/Acccord/LearnNotes/blob/master/android/UploadAAR2Maven.md)
 - [WebView](https://github.com/Acccord/LearnNotes/blob/master/android/WebView.md)
 
