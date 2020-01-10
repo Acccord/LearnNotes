@@ -43,5 +43,15 @@
 ## mac
 - [显示隐藏文件](https://github.com/Acccord/LearnNotes/blob/master/Mac/显示隐藏文件.md)
 
+## minipro
+- [CSS](https://github.com/Acccord/LearnNotes/blob/master/minipro/CSS.md)
+- [Flex](https://github.com/Acccord/LearnNotes/blob/master/minipro/Flex.md)
+- [Note](https://github.com/Acccord/LearnNotes/blob/master/minipro/Note.md)
+
 ## other
 - [Markdown格式](https://github.com/Acccord/LearnNotes/blob/master/git/Markdown格式.md)
+
+## python
+- [函数](https://github.com/Acccord/LearnNotes/blob/master/python/函数.md)
+- [列表元组字典集合](https://github.com/Acccord/LearnNotes/blob/master/python/列表元组字典集合.md)
+
