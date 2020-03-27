@@ -41,7 +41,7 @@
 - [范型](https://github.com/Acccord/LearnNotes/blob/master/kotlin/范型.md)
 
 ## mac
-- [显示隐藏文件](https://github.com/Acccord/LearnNotes/blob/master/Mac/显示隐藏文件.md)
+- [显示隐藏文件](https://github.com/Acccord/LearnNotes/blob/master/Mac/常用操作.md)
 
 ## minipro
 - [CSS](https://github.com/Acccord/LearnNotes/blob/master/minipro/CSS.md)
