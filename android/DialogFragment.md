@@ -16,10 +16,18 @@ SwitchDoorDialog().show(supportFragmentManager,"Vi")
 ```
 
 ## 其他方法
-- 点击其他区域消失
+- dialog消失方法
 ``` kotlin
-dialog.setCanceledOnTouchOutside(true)
+    //点击其他区域消失
+    dialog.setCanceledOnTouchOutside(true)
+
+    //dialog弹出后会点击屏幕或物理返回键，dialog不消失
+    dialog.setCancelable(false)
+
+    //dialog弹出后会点击屏幕，dialog不消失；点击物理返回键dialog消失
+    dialog.setCanceledOnTouchOutside(false)
 ```
+
 - 设置style
 
 Style代码
